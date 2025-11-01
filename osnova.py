@@ -22,3 +22,6 @@ while True:
         a = int(input())
         b = int(input())
         print(a*b)
+    elif cmd == "синус":
+        a = int(input())
+        print(math.sin(a))
