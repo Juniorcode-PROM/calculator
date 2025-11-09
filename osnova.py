@@ -1,4 +1,3 @@
-import math
 while True:
     cmd=input("Выберите один из знаков> ")
     if cmd=="exit":
@@ -22,3 +21,5 @@ while True:
         a = int(input())
         b = int(input())
         print(a*b)
+    else:
+        print("Введен неверный знак действия.")
