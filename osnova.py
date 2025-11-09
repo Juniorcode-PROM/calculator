@@ -1,3 +1,4 @@
+import math
 while True:
     cmd=input("Выберите один из знаков> ")
     if cmd=="exit":
@@ -21,6 +22,13 @@ while True:
         a = int(input())
         b = int(input())
         print(a*b)
+    elif cmd == "-":
+        a = int(input())
+        b = int(input())
+        print(a-b)
+    elif cmd =="корень":
+        a = int(input("введите число,у которого будет извлечаться корень"))
+        print(a**0.5)
     elif cmd == "синус":
         a = int(input())
         print(math.sin(a))
