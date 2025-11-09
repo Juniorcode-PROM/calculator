@@ -6,3 +6,7 @@ while True:
         a = int(input())
         b = int(input())
         print(a / b)
+    elif cmd == "*":
+        a = int(input())
+        b = int(input())
+        print(a*b)
