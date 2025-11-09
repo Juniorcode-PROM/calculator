@@ -10,3 +10,11 @@ while True:
     elif cmd=="косинус":
         a=int(input())
         print(math.cos(a))
+    elif cmd =="/":
+        a = int(input())
+        b = int(input())
+        print(a / b)
+    elif cmd == "*":
+        a = int(input())
+        b = int(input())
+        print(a*b)
